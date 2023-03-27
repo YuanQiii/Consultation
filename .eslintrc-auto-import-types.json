@@ -1,0 +1,23 @@
+{
+  "globals": {
+    "Http": true,
+    "SendMobileCode": true,
+    "LoginByCode": true,
+    "loginByPassword": true,
+    "GetTest": true,
+    "PostTest": true,
+    "Types": true,
+    "User": true,
+    "uview": true,
+    "FieldType": true,
+    "FieldTextAlign": true,
+    "FieldClearTrigger": true,
+    "FieldFormatTrigger": true,
+    "FieldValidateTrigger": true,
+    "FieldAutosizeConfig": true,
+    "FieldValidateError": true,
+    "FieldRuleMessage": true,
+    "FieldRuleValidator": true,
+    "FiledRuleFormatter": true
+  }
+}

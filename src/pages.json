@@ -1,0 +1,89 @@
+{
+  "pages": [
+    {
+      "name": "login",
+      "path": "pages/login/login",
+      "style": {
+        "navigationBarTitleText": "登录"
+      }
+    },
+    {
+      "name": "user",
+      "path": "pages/home/home",
+      "style": {
+        "navigationBarTitleText": "首页"
+      }
+    },
+    {
+      "name": "user",
+      "path": "pages/article/article",
+      "style": {
+        "navigationBarTitleText": "文章"
+      }
+    },
+    {
+      "name": "user",
+      "path": "pages/notify/notify",
+      "style": {
+        "navigationBarTitleText": "消息"
+      }
+    },
+    {
+      "name": "user",
+      "path": "pages/user/user",
+      "style": {
+        "navigationBarTitleText": "我的"
+      }
+    }
+  ],
+  "subPackages": [
+    // {
+    //   "root": "pages/test",
+    //   "pages": [
+    //     {
+    //       "name": "test",
+    //       "path": "test",
+    //       "style": {
+    //         "navigationBarTitleText": "测试"
+    //       }
+    //     }
+    //   ]
+    // }
+  ],
+  "tabBar": {
+    "color": "#7A7E83",
+    "selectedColor": "#3cc51f",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home"
+      },
+      {
+        "text": "文章",
+        "pagePath": "pages/article/article"
+      },
+      {
+        "text": "消息",
+        "pagePath": "pages/notify/notify"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/user/user"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#1AA86C",
+    "backgroundColor": "#F8F8F8"
+  },
+  "easycom": {
+    "autoscan": true,
+    "custom": {
+      "^u-(.*)": "vk-uview-ui/components/u-$1/u-$1.vue"
+    }
+  }
+}
